@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_practice", "WpfApp_p
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_practice1", "WpfApp_practice1\WpfApp_practice1.csproj", "{16150CFC-4A55-4DFD-8487-265CD49B1194}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepedProp", "DepedencyProperty\DepedProp.csproj", "{3CC38443-9FAD-49E7-BC28-C18B591E3F60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{16150CFC-4A55-4DFD-8487-265CD49B1194}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16150CFC-4A55-4DFD-8487-265CD49B1194}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16150CFC-4A55-4DFD-8487-265CD49B1194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CC38443-9FAD-49E7-BC28-C18B591E3F60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CC38443-9FAD-49E7-BC28-C18B591E3F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CC38443-9FAD-49E7-BC28-C18B591E3F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CC38443-9FAD-49E7-BC28-C18B591E3F60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
