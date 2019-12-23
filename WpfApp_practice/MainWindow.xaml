@@ -1,0 +1,102 @@
+﻿<Window x:Class="WpfApp_practice.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp_practice"
+        mc:Ignorable="d"
+        Title="MainWindow" x:Name="Test1" Height="320" Width="800">
+    <Grid x:Name="Grid1" Height="260" VerticalAlignment="Top">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Row="0" Grid.Column="0" x:Name="Border1" BorderBrush="Black" BorderThickness="4" Margin="4" CornerRadius="25">
+            <StackPanel x:Name="StackPanel1">
+
+                <Label x:Name="Label1" Content="Test1" HorizontalAlignment="Center" FontSize="15" FontWeight="Black"/>
+                <Grid x:Name="Grid2" Margin="20,0,20,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="10*"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <ComboBox Grid.Row="0" Grid.Column="0" Name="ComboBox1">
+                    </ComboBox>
+                    <Button Grid.Column="1" x:Name="Button1" HorizontalAlignment="Stretch" Content="..." FontStretch="Normal"/>
+                </Grid>
+                <Label x:Name="Label2" Content="Selected item Test 1" FontSize="15">
+                </Label>
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="0" Grid.Column="1" x:Name="Border2" BorderBrush="Black" BorderThickness="4" Margin="4" CornerRadius="25">
+            <StackPanel x:Name="StackPanel2">
+                <Label x:Name="Label5" Content="Test FolderPath" HorizontalAlignment="Center" FontSize="15" FontWeight="Bold"/>
+                <Grid x:Name="Grid4" Margin="20,0,20,0">
+                    <Grid.RowDefinitions/>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="9*">
+                        </ColumnDefinition>
+                        <ColumnDefinition>
+                        </ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Path Grid.Row="0" Grid.Column="0" x:Name="Path"/>
+                    <Button x:Name="Button3" Grid.Row="0" Grid.Column="1"  HorizontalAlignment="Stretch" Content="..."/>
+                </Grid>
+                <Label x:Name="Label6" Content="Selected item Test 1" FontSize="15" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="0" x:Name="Border3" BorderBrush="Black" BorderThickness="4" Margin="4" CornerRadius="25">
+            <StackPanel x:Name="StackPanel3">
+                <Label x:Name="Label3" Content="Test ReferenceItem" HorizontalAlignment="Center" FontSize="15" FontWeight="Bold"/>
+                <Grid x:Name="Grid3" Margin="20,0,20,0">
+                    <Grid.RowDefinitions/>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="9*">
+                        </ColumnDefinition>
+                        <ColumnDefinition>
+                        </ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBox Grid.Row="0" Grid.Column="0" x:Name="TextBox1" HorizontalAlignment="Stretch" />
+                    <Button x:Name="Button2" Grid.Row="0" Grid.Column="1"  HorizontalAlignment="Stretch" Content="..."/>
+                </Grid>
+                <Label x:Name="Label4" Content="Selected item Test 1" FontSize="15" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="1" x:Name="Border4" BorderBrush="Black" BorderThickness="4" Margin="4" CornerRadius="25">
+            <StackPanel x:Name="StackPanel4">
+                <Label Content="Test DateTimePeriod" HorizontalAlignment="Center" FontSize="15" FontWeight="Bold"/>
+                <Grid x:Name="Grid5" Margin="20,0,20,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="4*"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="4*"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <DatePicker Grid.Row="0" Grid.Column="0" x:Name="DP1" />
+                    <DatePicker Grid.Row="1" Grid.Column="0" x:Name="DP2" />
+                    <DatePicker Grid.Row="0" Grid.Column="2" x:Name="DP3" />
+                    <DatePicker Grid.Row="1" Grid.Column="2" x:Name="DP4" />
+                    <Button Grid.Column="3" Grid.Row="0" x:Name="Button4" Content="..."/>
+                    <Button Grid.Column="3" Grid.Row="1" x:Name="Button5" Content="..."/>
+                    <Label Grid.Row="0" Grid.Column="1" Content="&lt;-&gt;"/>
+                    <Label Grid.Row="1" Grid.Column="1" Content="&lt;-&gt;"/>
+
+                </Grid>
+                <Label Content="Selected period" FontSize="15"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
