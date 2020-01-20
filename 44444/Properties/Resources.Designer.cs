@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace _44444.Properties
+namespace _MultiTrigger.Properties
 {
 
 

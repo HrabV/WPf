@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace _44444
+namespace _MultiTrigger
 {
     /// <summary>
     /// Interaction logic for App.xaml

@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace _44444
+namespace _MultiTrigger
 {
     /// <summary>
     /// Interaction logic for Window1.xaml

@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace _55555
+namespace _EventTrigger
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
