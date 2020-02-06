@@ -1,0 +1,67 @@
+﻿<UserControl x:Class="Drawing.UserControl2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Drawing"
+             mc:Ignorable="d" 
+             Width="Auto" Height="Auto" Margin="5">
+    <UserControl.Resources>
+        <Style TargetType="{x:Type Label}">
+            <Setter Property="HorizontalAlignment" Value="Left" />
+            <Setter Property="VerticalAlignment" Value="Top" />
+            <Setter Property="Padding" Value="0,5" />
+        </Style>
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="HorizontalAlignment" Value="Left" />
+            <Setter Property="VerticalAlignment" Value="Top" />
+        </Style>
+    </UserControl.Resources>
+    <StackPanel>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <!-- Prefix -->
+            <Label Grid.Row="0" Grid.Column="0" Name="lblPrefix">Prefix</Label>
+            <TextBox Grid.Row="1" Grid.Column="0" Name="txtPrefix" Width="30" />
+            <!-- First -->
+            <Label Grid.Row="0" Grid.Column="1" Name="lblFirst">First</Label>
+            <TextBox Grid.Row="1" Grid.Column="1" Name="txtFirst" Width="120" />
+            <!-- Middle -->
+            <Label Grid.Row="0" Grid.Column="2" Name="lblMiddle">Middle</Label>
+            <TextBox Grid.Row="1" Grid.Column="2" Name="txtMiddle" Width="120" />
+            <!-- Last -->
+            <Label Grid.Row="0" Grid.Column="3" Name="lblLast">Last</Label>
+            <TextBox Grid.Row="1" Grid.Column="3" Name="txtLast" Width="120" />
+            <!-- Suffix -->
+            <Label Grid.Row="0" Grid.Column="4" Name="lblSuffix" Padding="0,5">Suffix</Label>
+            <TextBox Grid.Row="1" Grid.Column="4" Name="txtSuffix" Width="30" />
+        </Grid>
+        <!-- Row2 -->
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="120"/>
+            </Grid.ColumnDefinitions>
+            <!-- Nickname -->
+            <Label Grid.Row="0" Grid.Column="0" Name="lblNickName">Nickname</Label>
+            <TextBox Grid.Row="1" Grid.Column="0" Name="txtNickname" />
+            <!-- Maiden -->
+            <Label Grid.Row="0" Grid.Column="1" Name="lblMaiden">Maiden</Label>
+            <TextBox Grid.Row="1" Grid.Column="1" Name="txtMaiden" Width="120" />
+        </Grid>
+    </StackPanel>
+</UserControl>

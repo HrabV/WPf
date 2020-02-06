@@ -1,0 +1,30 @@
+﻿<Page x:Class="PageTask.UserContent"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PageTask"
+      mc:Ignorable="d" 
+      d:DesignHeight="350" d:DesignWidth="400"
+      Title="UserContent" Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid.RowDefinitions>
+        <RowDefinition />
+        <RowDefinition />
+        <RowDefinition />
+        <RowDefinition />
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0" Background="WhiteSmoke" Margin="10,10" BorderBrush="YellowGreen" BorderThickness="3">
+            <DockPanel >
+            <TextBlock x:Name="textBlockLogin"/>
+        </DockPanel>
+            </Border>
+        <Border Grid.Row="1" Background="WhiteSmoke" Margin="10,10" BorderBrush="YellowGreen" BorderThickness="3">
+            <DockPanel>
+                <TextBlock x:Name="textBlockPass"/>
+            </DockPanel>
+        </Border>
+
+    </Grid>
+</Page>
