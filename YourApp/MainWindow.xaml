@@ -1,0 +1,15 @@
+﻿<Window x:Class="YourApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:YourApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnMeesageBox1" Style="{StaticResource MyButton}" Content="Show MessageBox 1" HorizontalAlignment="Left" Margin="90,294,0,0" VerticalAlignment="Top" Width="285" Height="49" RenderTransformOrigin="0.651,0.555" Background="#FF2EAFEC" Click="BtnMeesageBox_Click"/>
+        <Button x:Name="btnNotification" Style="{StaticResource MyButton}" Content="Show ShortNotification" HorizontalAlignment="Left" Margin="417,294,0,0" VerticalAlignment="Top" Width="285" Height="105" RenderTransformOrigin="0.651,0.555" Background="#FF2EAFEC" Click="BtnNotification_Click"/>
+        <TextBox x:Name="txbYourText" Text="Your text" Margin="90,75,90,155" FontSize="22"/>
+        <Button x:Name="btnMeesageBox2" Style="{StaticResource MyButton}" Content="Show MessageBox 2" HorizontalAlignment="Left" Margin="90,350,0,0" VerticalAlignment="Top" Width="285" Height="49" RenderTransformOrigin="0.651,0.555" Background="#FF2EAFEC" Click="BtnMeesageBox2_Click"/>
+    </Grid>
+</Window>
